@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<medicos>
+  <medico>
+    <nome>VARIAVEL DO NOME</nome>
+    <endereco>VARIAVEL DO ENDERECO</endereco>
+    <telefone>VARIAVEL DO TELEFONE</telefone>
+    <email>VARIAVEL DO EMAIL</email>
+    <especialidade>VARIAVEL DA ESPECIALIDADE</especialidade>
+    <crm>VARIAVEL DO CRM</crm>
+  </medico>
+</medicos>
