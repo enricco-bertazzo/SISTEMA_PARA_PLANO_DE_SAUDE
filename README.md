@@ -1,6 +1,5 @@
 # SISTEMA_PARA_PLANO_DE_SAUDE
-
-# Sistema para Plano De Saúde
+# SPPS
 
 >Sistema de plano de saúde solicitado para matéria de Sistemas para Internet II
 
