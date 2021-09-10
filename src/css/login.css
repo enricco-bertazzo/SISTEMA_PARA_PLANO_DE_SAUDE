@@ -7,3 +7,9 @@
 	left: 50%;
 	margin-left: -250px;
 }
+.input-group-text{
+	height: 38px;
+}
+.input-group{
+	margin-bottom: 5px;
+}
