@@ -8,12 +8,13 @@ function cad_medicos(){
 
     $medico = $xml -> createElement("medico");
 
-    $nome = $xml -> createElement("nome", "VARIAVEL DO NOME");
-    $endereco = $xml -> createElement("endereco", "VARIAVEL DO ENDERECO");
-    $telefone = $xml -> createElement("telefone", "VARIAVEL DO TELEFONE");
-    $email = $xml -> createElement("email", "VARIAVEL DO EMAIL");
-    $especialidade = $xml -> createElement("especialidade", "VARIAVEL DA ESPECIALIDADE");
-    $crm = $xml -> createElement("crm", "VARIAVEL DO CRM");
+    $nome = $xml -> createElement("nome", " ");
+    $endereco = $xml -> createElement("endereco", " ");
+    $telefone = $xml -> createElement("telefone", " ");
+    $email = $xml -> createElement("email", " ");
+    $especialidade = $xml -> createElement("especialidade", " ");
+    $crm = $xml -> createElement("crm", " ");
+    $senha = $xml -> createElement("senha", " ");
 
     $medico -> appendChild($nome);
     $medico -> appendChild($endereco);
@@ -21,6 +22,7 @@ function cad_medicos(){
     $medico -> appendChild($email);
     $medico -> appendChild($especialidade);
     $medico -> appendChild($crm);
+    $medico -> appendChild($senha);
 
     $medicos -> appendChild($medico);
     $xml -> save('../xml/cadastro_medicos.xml');
@@ -41,6 +43,7 @@ function cad_laboratorio(){
     $email = $xml -> createElement("email", "VARIAVEL DO EMAIL");
     $exame = $xml -> createElement("exame", "VARIAVEL DA exame");
     $cnpj = $xml -> createElement("cnpj", "VARIAVEL DO cnpj");
+    $senha = $xml -> createElement("senha", " ");
 
     $laboratorio -> appendChild($nome);
     $laboratorio -> appendChild($endereco);
@@ -48,6 +51,7 @@ function cad_laboratorio(){
     $laboratorio -> appendChild($email);
     $laboratorio -> appendChild($exame);
     $laboratorio -> appendChild($cnpj);
+    $laboratorio -> appendChild($senha);
 
     $laboratorios -> appendChild($laboratorio);
     $xml -> save('../xml/cadastro_laboratorios.xml');
@@ -69,6 +73,7 @@ function cad_pacientes(){
     $email = $xml -> createElement("email", "VARIAVEL DO EMAIL");
     $genero = $xml -> createElement("genero", "VARIAVEL DO GENERO");
     $cpf = $xml -> createElement("cpf", "VARIAVEL DO CPF");
+    $senha = $xml -> createElement("senha", " ");
 
     $paciente -> appendChild($nome);
     $paciente -> appendChild($endereco);
@@ -76,6 +81,7 @@ function cad_pacientes(){
     $paciente -> appendChild($email);
     $paciente -> appendChild($genero);
     $paciente -> appendChild($cpf);
+    $paciente -> appendChild($senha);
 
     $pacientes -> appendChild($paciente);
     $xml -> save('../xml/cadastro_pacientes.xml');
@@ -133,4 +139,5 @@ function exames(){
     $xml -> save('../xml/exames.xml');
     
 }
+
 ?>
