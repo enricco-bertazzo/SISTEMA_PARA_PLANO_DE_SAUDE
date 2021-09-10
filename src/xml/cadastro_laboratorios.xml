@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<laboratorios>
+  <laboratorio>
+    <nome>VARIAVEL DO NOME</nome>
+    <endereco>VARIAVEL DO ENDERECO</endereco>
+    <telefone>VARIAVEL DO TELEFONE</telefone>
+    <email>VARIAVEL DO EMAIL</email>
+    <exames>VARIAVEL DA EXAMES</exames>
+    <cnpj>VARIAVEL DO CNPJ</cnpj>
+  </laboratorio>
+</laboratorios>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<pacientes>
+  <paciente>
+    <nome>VARIAVEL DO NOME</nome>
+    <endereco>VARIAVEL DO ENDERECO</endereco>
+    <telefone>VARIAVEL DO TELEFONE</telefone>
+    <email>VARIAVEL DO EMAIL</email>
+    <genero>VARIAVEL DA GENERO</genero>
+    <idade>VARIAVEL DA IDADE</idade>
+    <CPF>VARIAVEL DO CPF</CPF>
+  </paciente>
+</pacientes>

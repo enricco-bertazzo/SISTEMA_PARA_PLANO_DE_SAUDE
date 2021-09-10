@@ -26,6 +26,4 @@ $medico = $xml -> createElement("medico");
 $medicos -> appendChild($medico);
 $xml -> save('../xml/cadastro_medicos.xml');
 
-
-
 ?>
