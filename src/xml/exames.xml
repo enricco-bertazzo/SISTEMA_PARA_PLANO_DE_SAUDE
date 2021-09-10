@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<exames>
+  <exame>
+    <data>VARIAVEL DO data</data>
+    <laboratorio>VARIAVEL DO laboratorio</laboratorio>
+    <paciente>VARIAVEL DO paciente</paciente>
+    <exame>VARIAVEL DO exame</exame>
+    <resultado>VARIAVEL DA observacao</observacao>
+  </exame>
+</exames>
