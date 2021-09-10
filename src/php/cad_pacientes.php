@@ -1,7 +1,5 @@
 <?php
 
-//https://www.youtube.com/watch?v=CBmB2fc0IUM&ab_channel=SilvysterAbing
-
 $xml = new DOMDocument('1.0');
 $xml -> load('../xml/cadastro_pacientes.xml');
 
