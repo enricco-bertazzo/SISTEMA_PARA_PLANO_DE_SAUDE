@@ -1,20 +1,51 @@
 <?php
 
+function cad_pacientes(){
+
+    $xml = new DOMDocument('1.0', 'utf-8');
+    $xml -> load('../xml/cadastro_pacientes.xml');
+
+    $pacientes = $xml -> getElementById('pacientes');
+
+    $paciente = $xml -> createElement('paciente');
+
+    $nome = $xml -> createElement('nome', $nome);
+    $endereco = $xml -> createElement('endereco', $endereco);
+    $telefone = $xml -> createElement('telefone', $telefone);
+    $email = $xml -> createElement('email', $email);
+    $genero = $xml -> createElement('genero', $genero);
+    $cpf = $xml -> createElement('cpf', $cpf);
+    $senha = $xml -> createElement('senha', $senha);
+
+    $paciente -> appendChild($nome);
+    $paciente -> appendChild($endereco);
+    $paciente -> appendChild($telefone);
+    $paciente -> appendChild($email);
+    $paciente -> appendChild($genero);
+    $paciente -> appendChild($cpf);
+    $paciente -> appendChild($senha);
+
+    $pacientes -> appendChild($paciente);
+    $xml -> save('../xml/cadastro_pacientes.xml');
+
+}
+
+
 function cad_medicos(){
     $xml = new DOMDocument('1.0');
     $xml -> load('../xml/cadastro_medicos.xml');
 
-    $medicos = $xml -> getElementById("medicos");
+    $medicos = $xml -> getElementById('medicos');
 
-    $medico = $xml -> createElement("medico");
+    $medico = $xml -> createElement('medico');
 
-    $nome = $xml -> createElement("nome", " ");
-    $endereco = $xml -> createElement("endereco", " ");
-    $telefone = $xml -> createElement("telefone", " ");
-    $email = $xml -> createElement("email", " ");
-    $especialidade = $xml -> createElement("especialidade", " ");
-    $crm = $xml -> createElement("crm", " ");
-    $senha = $xml -> createElement("senha", " ");
+    $nome = $xml -> createElement('nome', ' ');
+    $endereco = $xml -> createElement('endereco', ' ');
+    $telefone = $xml -> createElement('telefone', ' ');
+    $email = $xml -> createElement('email', ' ');
+    $especialidade = $xml -> createElement('especialidade', ' ');
+    $crm = $xml -> createElement('crm', ' ');
+    $senha = $xml -> createElement('senha', ' ');
 
     $medico -> appendChild($nome);
     $medico -> appendChild($endereco);
@@ -33,17 +64,17 @@ function cad_laboratorio(){
     $xml = new DOMDocument('1.0');
     $xml -> load('../xml/cadastro_laboratorios.xml');
 
-    $laboratorios = $xml -> getElementById("laboratorios");
+    $laboratorios = $xml -> getElementById('laboratorios');
 
-    $laboratorio = $xml -> createElement("laboratorio");
+    $laboratorio = $xml -> createElement('laboratorio');
 
-    $nome = $xml -> createElement("nome", "VARIAVEL DO NOME");
-    $endereco = $xml -> createElement("endereco", "VARIAVEL DO ENDERECO");
-    $telefone = $xml -> createElement("telefone", "VARIAVEL DO TELEFONE");
-    $email = $xml -> createElement("email", "VARIAVEL DO EMAIL");
-    $exame = $xml -> createElement("exame", "VARIAVEL DA exame");
-    $cnpj = $xml -> createElement("cnpj", "VARIAVEL DO cnpj");
-    $senha = $xml -> createElement("senha", " ");
+    $nome = $xml -> createElement('nome', 'VARIAVEL DO NOME');
+    $endereco = $xml -> createElement('endereco', 'VARIAVEL DO ENDERECO');
+    $telefone = $xml -> createElement('telefone', 'VARIAVEL DO TELEFONE');
+    $email = $xml -> createElement('email', 'VARIAVEL DO EMAIL');
+    $exame = $xml -> createElement('exame', 'VARIAVEL DA exame');
+    $cnpj = $xml -> createElement('cnpj', 'VARIAVEL DO cnpj');
+    $senha = $xml -> createElement('senha', ' ');
 
     $laboratorio -> appendChild($nome);
     $laboratorio -> appendChild($endereco);
@@ -58,50 +89,20 @@ function cad_laboratorio(){
 
 }
 
-function cad_pacientes(){
-
-    $xml = new DOMDocument('1.0');
-    $xml -> load('../xml/cadastro_pacientes.xml');
-
-    $pacientes = $xml -> getElementById("pacientes");
-
-    $paciente = $xml -> createElement("paciente");
-
-    $nome = $xml -> createElement("nome", "VARIAVEL DO NOME");
-    $endereco = $xml -> createElement("endereco", "VARIAVEL DO ENDERECO");
-    $telefone = $xml -> createElement("telefone", "VARIAVEL DO TELEFONE");
-    $email = $xml -> createElement("email", "VARIAVEL DO EMAIL");
-    $genero = $xml -> createElement("genero", "VARIAVEL DO GENERO");
-    $cpf = $xml -> createElement("cpf", "VARIAVEL DO CPF");
-    $senha = $xml -> createElement("senha", " ");
-
-    $paciente -> appendChild($nome);
-    $paciente -> appendChild($endereco);
-    $paciente -> appendChild($telefone);
-    $paciente -> appendChild($email);
-    $paciente -> appendChild($genero);
-    $paciente -> appendChild($cpf);
-    $paciente -> appendChild($senha);
-
-    $pacientes -> appendChild($paciente);
-    $xml -> save('../xml/cadastro_pacientes.xml');
-
-}
-
 function consultas(){
 
     $xml = new DOMDocument('1.0');
     $xml -> load('../xml/consultas.xml');
 
-    $consultas = $xml -> getElementById("consultas");
+    $consultas = $xml -> getElementById('consultas');
 
-    $consulta = $xml -> createElement("consulta");
+    $consulta = $xml -> createElement('consulta');
 
-    $data = $xml -> createElement("data", "VARIAVEL DO data");
-    $medico = $xml -> createElement("medico", "VARIAVEL DO medico");
-    $paciente = $xml -> createElement("paciente", "VARIAVEL DO paciente");
-    $receita = $xml -> createElement("receita", "VARIAVEL DO receita");
-    $observacao = $xml -> createElement("observacao", "VARIAVEL DA observacao");
+    $data = $xml -> createElement('data', 'VARIAVEL DO data');
+    $medico = $xml -> createElement('medico', 'VARIAVEL DO medico');
+    $paciente = $xml -> createElement('paciente', 'VARIAVEL DO paciente');
+    $receita = $xml -> createElement('receita', 'VARIAVEL DO receita');
+    $observacao = $xml -> createElement('observacao', 'VARIAVEL DA observacao');
 
     $consulta -> appendChild($data);
     $consulta -> appendChild($medico);
@@ -119,15 +120,15 @@ function exames(){
     $xml = new DOMDocument('1.0');
     $xml -> load('../xml/exames.xml');
     
-    $exames = $xml -> getElementById("exames");
+    $exames = $xml -> getElementById('exames');
     
-    $exame = $xml -> createElement("exame");
+    $exame = $xml -> createElement('exame');
     
-        $data = $xml -> createElement("data", "VARIAVEL DO data");
-        $laboratorio = $xml -> createElement("laboratorio", "VARIAVEL DO laboratorio");
-        $paciente = $xml -> createElement("paciente", "VARIAVEL DO paciente");
-        $exame = $xml -> createElement("exame", "VARIAVEL DO exame");
-        $resultado = $xml -> createElement("resultado", "VARIAVEL DA resultado");
+        $data = $xml -> createElement('data', 'VARIAVEL DO data');
+        $laboratorio = $xml -> createElement('laboratorio', 'VARIAVEL DO laboratorio');
+        $paciente = $xml -> createElement('paciente', 'VARIAVEL DO paciente');
+        $exame = $xml -> createElement('exame', 'VARIAVEL DO exame');
+        $resultado = $xml -> createElement('resultado', 'VARIAVEL DA resultado');
     
         $exame -> appendChild($data);
         $exame -> appendChild($laboratorio);
