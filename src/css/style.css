@@ -1,3 +1,6 @@
 body{
 	background-color: #cccccc;
 }
+#menu{
+	z-index: 9999;
+}

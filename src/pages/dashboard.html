@@ -4,6 +4,7 @@
 <head>
 	<title>SPPS | Dashboard </title>
 	<meta charset="utf-8">
+	<link rel="icon" href="../img/icon.png">
 	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
 	<link href="../css/dashboard.css" rel="stylesheet">
@@ -13,17 +14,51 @@
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md navbar-light bg-light">
-		<div class="dropdown">
-			<button class="btn btn-secondary dropdown-toggle" type="button" id="pacientemenulist"
-				data-bs-toggle="dropdown" aria-expanded="false">
-				Paciente
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container-fluid">
+			<a class="navbar-brand" href="dashboard.html">SPPS</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
 			</button>
-			<ul class="dropdown-menu" aria-labelledby="pacientemenulist">
-				<li><a class="dropdown-item" href="#">Adicionar Paciente</a></li>
-				<li><a class="dropdown-item" href="#">Excluir Passiente</a></li>
-				<li><a class="dropdown-item" href="#">Editar Paciente</a></li>
-			</ul>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Pacientes
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="incluir-paciente.html">Incluir Paciente</a></li>
+							<li><a class="dropdown-item" href="#">Editar Paciente</a></li>
+							<li><a class="dropdown-item" href="#">Desvincular Paciente</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Médicos
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Incluir Médicos</a></li>
+							<li><a class="dropdown-item" href="#">Editar Médicos</a></li>
+							<li><a class="dropdown-item" href="#">Desvincular Médicos</a></li>
+						</ul>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-bs-toggle="dropdown" aria-expanded="false">
+							Laboratórios
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Incluir Laboratório</a></li>
+							<li><a class="dropdown-item" href="#">Editar Laboratório</a></li>
+							<li><a class="dropdown-item" href="#">Desvincular Laboratório</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 		</div>
 	</nav>
 </body>

@@ -1,0 +1,14 @@
+#formulario{
+	border-radius: 10px;
+	width: 1000px;
+	margin: 10px auto;
+}
+.input-group-text{
+	height: 38px;
+}
+.input-group{
+	margin-bottom: 5px;
+}
+.input-group-prepend{
+    width: 44px;
+}
