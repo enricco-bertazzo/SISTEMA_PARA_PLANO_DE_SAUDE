@@ -1,30 +1,12 @@
 <?xml version="1.0"?>
 <pacientes>
   <paciente>
-    <nome>VARIAVEL DO NOME</nome>
-    <endereco>VARIAVEL DO ENDERECO</endereco>
-    <telefone>VARIAVEL DO TELEFONE</telefone>
-    <email>VARIAVEL DO EMAIL</email>
-    <genero>VARIAVEL DA GENERO</genero>
-    <idade>VARIAVEL DA IDADE</idade>
-    <CPF>VARIAVEL DO CPF</CPF>
-  </paciente>
-  <paciente>
-    <nome>enricco</nome>
-    <endereco>avenida</endereco>
-    <telefone>991102311</telefone>
-    <email>jogosenricco@outlook.com</email>
-    <genero>sdsdsd</genero>
-    <cpf>zxzxzxz</cpf>
-    <senha>1234</senha>
-  </paciente>
-  <paciente>
-    <nome>Enricco Bertazzo</nome>
-    <endereco>Avenida Portugal</endereco>
-    <telefone>991102311</telefone>
-    <email>jogosenricco@outlook.com</email>
-    <genero>masculino</genero>
-    <cpf>034.864.960-69</cpf>
-    <senha>1234</senha>
+    <nome> NOME </nome>
+    <endereco> ENDERECO </endereco>
+    <telefone> TELEFONE </telefone>
+    <email> EMAIL </email>
+    <genero> GENERO </genero>
+    <idade> IDADE </idade>
+    <CPF> CPF </CPF>
   </paciente>
 </pacientes>

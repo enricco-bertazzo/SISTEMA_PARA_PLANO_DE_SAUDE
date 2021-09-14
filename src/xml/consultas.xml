@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <consultas>
   <consulta>
-    <data>VARIAVEL DO data</data>
-    <medico>VARIAVEL DO medico</medico>
-    <paciente>VARIAVEL DO paciente</paciente>
-    <receita>VARIAVEL DO receita</receita>
-    <observacao>VARIAVEL DA observacao</observacao>
+    <data> DATA </data>
+    <medico> MEDICO </medico>
+    <paciente> PACIENTE </paciente>
+    <receita> RECEITA </receita>
+    <observacao> OBSERVAÇÃO </observacao>
   </consulta>
 </consultas>

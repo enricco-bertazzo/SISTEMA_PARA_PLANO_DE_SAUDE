@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <medicos>
   <medico>
-    <nome>VARIAVEL DO NOME</nome>
-    <endereco>VARIAVEL DO ENDERECO</endereco>
-    <telefone>VARIAVEL DO TELEFONE</telefone>
-    <email>VARIAVEL DO EMAIL</email>
-    <especialidade>VARIAVEL DA ESPECIALIDADE</especialidade>
-    <crm>VARIAVEL DO CRM</crm>
+    <nome> NOME </nome>
+    <endereco> ENDERECO </endereco>
+    <telefone> TELEFONE </telefone>
+    <email> EMAIL </email>
+    <especialidade> ESPECIALIDADE </especialidade>
+    <crm> CRM </crm>
   </medico>
 </medicos>
