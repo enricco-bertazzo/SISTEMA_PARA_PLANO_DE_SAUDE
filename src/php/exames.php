@@ -3,7 +3,7 @@
 $xml = new DOMDocument('1.0');
 $xml -> load('../xml/exames.xml');
 
-$exames = $xml -> getElementById('exames');
+$exames = $xml -> getElementsByTagName('exames') -> item(0);
 
 $exame = $xml -> createElement('exame');
 
