@@ -1,6 +1,6 @@
 <?php
 
-function cad_pacientes(){
+/*function cad_pacientes(){
 
     $xml = new DOMDocument('1.0', 'utf-8');
     $xml -> load('../xml/cadastro_pacientes.xml');
@@ -141,4 +141,4 @@ function exames(){
     
 }
 
-?>
+?>*/

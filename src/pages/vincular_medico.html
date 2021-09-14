@@ -2,7 +2,7 @@
 <html lang="pt-br">
 
 <head>
-	<title>SPPS | Incluir Paciente </title>
+	<title>SPPS | Vincular Médicos </title>
 	<meta charset="utf-8">
 	<link rel="icon" href="../img/icon.png">
 	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
@@ -32,7 +32,7 @@
 							Pacientes
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="incluir-paciente.html">Incluir Paciente</a></li>
+							<li><a class="dropdown-item" href="vincular_paciente.html">Vincular Paciente</a></li>
 							<li><a class="dropdown-item" href="#">Editar Paciente</a></li>
 							<li><a class="dropdown-item" href="#">Desvincular Paciente</a></li>
 						</ul>
@@ -43,7 +43,7 @@
 							Médicos
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Incluir Médicos</a></li>
+							<li><a class="dropdown-item" href="vincular_medicos.html">Vincular Médicos</a></li>
 							<li><a class="dropdown-item" href="#">Editar Médicos</a></li>
 							<li><a class="dropdown-item" href="#">Desvincular Médicos</a></li>
 						</ul>
@@ -54,7 +54,7 @@
 							Laboratórios
 						</a>
 						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<li><a class="dropdown-item" href="#">Incluir Laboratório</a></li>
+							<li><a class="dropdown-item" href="vincular_laboratorio.html">Vincular Laboratório</a></li>
 							<li><a class="dropdown-item" href="#">Editar Laboratório</a></li>
 							<li><a class="dropdown-item" href="#">Desvincular Laboratório</a></li>
 						</ul>
@@ -66,7 +66,7 @@
 
 	<div class="card" id="formulario">
 		<article class="card-body">
-			<h4 class="card-title text-center mb-4 mt-1">Inclusão de Paciente</h4>
+			<h4 class="card-title text-center mb-4 mt-1">Inclusão de Médicos</h4>
 			<hr>
 			<p class="text-danger text-center" name="msg-erro"></p>
 			<form method="POST" action="src/pages/dashboard.html">
@@ -75,7 +75,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="far fa-user"></i></span>
 						</div>
-						<input name="nome-usuario" id="nome-usuario" class="form-control" placeholder="Nome" type="text" required>
+						<input name="nome" id="nome" class="form-control" placeholder="Nome" type="text" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -83,7 +83,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="far fa-map"></i></span>
 						</div>
-						<input name="endereco-usuario" id="endereco-usuario" class="form-control" placeholder="Endereço" type="text" required>
+						<input name="endereco" id="endereco" class="form-control" placeholder="Endereço" type="text" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -91,16 +91,16 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-mobile-alt"></i></span>
 						</div>
-						<input name="telefone-usuario" id="telefone-usuario" class="form-control" placeholder="Telefone" type="text" required>
+						<input name="telefone" id="telefone" class="form-control" placeholder="Telefone" type="text" required>
 					</div>
 				</div>
-				<script type="text/javascript">$("#telefone-usuario").mask("(00) 00000-0000");</script>
+				<script type="text/javascript">$("#telefone").mask("(00) 00000-0000");</script>
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="far fa-envelope"></i></span>
 						</div>
-						<input name="email-usuario" id="email-usuario" class="form-control" placeholder="Email" type="email" required>
+						<input name="email" id="email" class="form-control" placeholder="Email" type="email" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -108,7 +108,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-transgender-alt"></i></span>
 						</div>
-						<input name="genero-usuario" id="genero-usuario" class="form-control" placeholder="Gênero" type="text" required>
+						<input name="especialidade" id="especialidade" class="form-control" placeholder="Especialidade" type="text" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -116,20 +116,19 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="far fa-id-card"></i></span>
 						</div>
-						<input name="cpf-usuario" id="cpf-usuario" class="form-control" placeholder="CPF" type="text" required>
+						<input name="CRM" id="CRM" class="form-control" placeholder="CRM" type="text" required>
 					</div>
 				</div>
-				<script type="text/javascript">$("#cpf-usuario").mask("000.000.000-00");</script>
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="fas fa-lock"></i></span>
 						</div>
-						<input name="senha-medico" class="form-control" placeholder="Senha" type="password" required>
+						<input name="Senha" class="form-control" placeholder="Senha" type="password" required>
 					</div>
 				</div>
 				<div class="form-group">
-					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Incluir</button>
+					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Vincular</button>
 			</form>
 		</article>
 	</div>
