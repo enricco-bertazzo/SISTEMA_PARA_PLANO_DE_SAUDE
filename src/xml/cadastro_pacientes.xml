@@ -1,12 +1,118 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <pacientes>
-  <paciente>
-    <nome> NOME </nome>
-    <endereco> ENDERECO </endereco>
-    <telefone> TELEFONE </telefone>
-    <email> EMAIL </email>
-    <genero> GENERO </genero>
-    <idade> IDADE </idade>
-    <CPF> CPF </CPF>
-  </paciente>
+
+   <paciente>
+      <telefone>(92) 98423-9429</telefone>
+      <cpf>604.257.580-52</cpf>
+      <data_nasc>08/04/1970</data_nasc>
+      <email>bernardorenansales_@haldex.com</email>
+      <endereco>Rua Arthur de Souza</endereco>
+      <nome>Bernardo Renan Sales</nome>
+      <senha>c784MipuZu</senha>
+      <genero>Homem Cis</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(21) 98153-7873</telefone>
+      <cep>25932-330</cep>
+      <cpf>367.606.035-08</cpf>
+      <data_nasc>10/06/1948</data_nasc>
+      <email>jessicasuelimariaholiveira__jessicasuelimariaholiveira@comercialmendes.net</email>
+      <endereco>Rua Magé</endereco>
+      <nome>Jéssica Sueli Mariah Oliveira</nome>
+      <senha>kTYQYr159a</senha>
+      <genero>Mulher Trans</genero>
+   </paciente>
+
+   <paciente>
+      <altura>1,92</altura>
+      <bairro>São Vicente</bairro>
+      <telefone>(95) 99780-9817</telefone>
+      <cpf>722.259.023-48</cpf>
+      <data_nasc>21/04/1988</data_nasc>
+      <email>joseseverinocarlossales_@opusvp.com.br</email>
+      <endereco>Travessa Araraquara</endereco>
+      <nome>José Severino Carlos Sales</nome>
+      <senha>804NDcMGrj</senha>
+      <genero>Homem Trans</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(81) 99213-3497</telefone>
+      <cpf>418.228.045-82</cpf>
+      <data_nasc>19/11/1993</data_nasc>
+      <email>edsonlucasassis__edsonlucasassis@outershoes.com.br</email>
+      <endereco>Rua Ceará</endereco>
+      <nome>Edson Lucas Assis</nome>
+      <senha>pX7jmNYpn5</senha>
+      <genero>Homem Trans</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(63) 99765-6134</telefone>
+      <cpf>690.924.901-13</cpf>
+      <data_nasc>08/08/1964</data_nasc>
+      <email>martinkevineliaspereira-95@tortasecreta.com</email>
+      <endereco>Quadra 505 Sul Avenida NS 5</endereco>
+      <nome>Martin Kevin Elias Pereira</nome>
+      <senha>9DWABne7pn</senha>
+      <genero>Homem Cis</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(41) 99927-7882</telefone>
+      <cpf>347.003.247-59</cpf>
+      <data_nasc>21/10/1956</data_nasc>
+      <email>marlijoanacatarinagomes_@vivo.com.br</email>
+      <endereco>Rua Alvim Jareski</endereco>
+      <nome>Marli Joana Catarina Gomes</nome>
+      <senha>0QsjUx5iOp</senha>
+      <genero>Mulher Cis</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(85) 98717-5070</telefone>
+      <cpf>750.927.819-80</cpf>
+      <data_nasc>24/06/1954</data_nasc>
+      <email>mayaliviasoniacavalcanti_@mourafiorito.com</email>
+      <endereco>Rua T</endereco>
+      <nome>Maya Lívia Sônia Cavalcanti</nome>
+      <senha>HbjHa00N9x</senha>
+      <genero>Mulher Cis</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(54) 98512-9735</telefone>
+      <cpf>668.733.804-82</cpf>
+      <data_nasc>18/12/1972</data_nasc>
+      <email>mariofilipejorgedapaz_@lumavale.com.br</email>
+      <endereco>Rua Antônio Mengatto</endereco>
+      <nome>Mário Filipe Jorge da Paz</nome>
+      <senha>29IrxdDofe</senha>
+      <genero>Mulher Trans</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(85) 99462-3773</telefone>
+      <cep>60180-571</cep>
+      <cpf>708.838.663-15</cpf>
+      <data_nasc>13/02/2003</data_nasc>
+      <email>hadassamaludasilva..hadassamaludasilva@julianacaran.com.br</email>
+      <endereco>Vila Agailton</endereco>
+      <nome>Hadassa Malu da Silva</nome>
+      <senha>OcZITt97ZW</senha>
+      <genero>Mulher Cis</genero>
+   </paciente>
+
+   <paciente>
+      <telefone>(69) 99289-8263</telefone>
+      <cpf>002.626.409-96</cpf>
+      <data_nasc>11/03/1961</data_nasc>
+      <email>iisabelmanueladarosa@kuehne-nagel.com</email>
+      <endereco>Avenida Dois de Junho</endereco>
+      <nome>Isabel Manuela da Rosa</nome>
+      <senha>JrUZTnBtqB</senha>
+      <genero>Homem Cis</genero>
+   </paciente>
+
 </pacientes>
