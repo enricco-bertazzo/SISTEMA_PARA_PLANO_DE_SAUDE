@@ -38,9 +38,7 @@
 				</div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Login</button>
-					<center><a ref="#" class="btn">Esqueceu sua senha?</a></center>
-					<center><a href="" class="btn" action="pages/incluir_paciente.html">Crie uma Conta</a></center>
-
+					<center><a ref="#" class="btn">Esqueceu sua senha?</a></center>	
 			</form>
 		</article>
 	</div>
