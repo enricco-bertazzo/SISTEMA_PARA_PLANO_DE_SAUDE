@@ -5,10 +5,10 @@
 	<title>SPPS</title>
 	<meta charset="utf-8">
 	<link rel="icon" href="http://example.com/favicon.png">
-	<link href="src/css/bootstrap/bootstrap.min.css" rel="stylesheet">
-	<link href="src/css/style.css" rel="stylesheet">
-	<link href="src/css/login.css" rel="stylesheet">
-	<script src="src/js/bootstrap/bootstrap.min.js"></script>
+	<link href="../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/login.css" rel="stylesheet">
+	<script src="../js/bootstrap/bootstrap.min.js"></script>
 	<script src="https://kit.fontawesome.com/0dc26a975a.js" crossorigin="anonymous"></script>
 </head>
 
@@ -18,7 +18,7 @@
 			<h4 class="card-title text-center mb-4 mt-1">SPPS</h4>
 			<hr>
 			<p class="text-danger text-center" name="msg-erro"></p>
-			<form method="POST" action="src/pages/dashboard.html">
+			<form method="POST" action="dashboard.php">
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-prepend">

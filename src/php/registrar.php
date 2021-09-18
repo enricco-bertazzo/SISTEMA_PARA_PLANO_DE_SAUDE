@@ -1,6 +1,5 @@
 <?php
 
-
 $nome = $_POST['nome'];
 $endereco = $_POST['endereco'];
 $telefone = $_POST['telefone'];
@@ -23,7 +22,6 @@ if(isset($crm)){
 } elseif (isset($cnpj)){
     include 'cad_laboratorios.php';
 }
-
 
 header('location: ../pages/dashboard.html');
 ?>
