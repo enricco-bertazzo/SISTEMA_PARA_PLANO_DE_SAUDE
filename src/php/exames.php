@@ -20,6 +20,7 @@ $exame = $xml -> createElement('exame');
     $exame -> appendChild($resultado);
 
 $exames -> appendChild($exame);
+$xml -> formatOutput = true;
 $xml -> save('../xml/exames.xml');
 
 ?>

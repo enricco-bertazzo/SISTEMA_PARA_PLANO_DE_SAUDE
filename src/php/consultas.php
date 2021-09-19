@@ -20,6 +20,7 @@ $consulta = $xml -> createElement('consulta');
     $consulta -> appendChild($observacao);
 
 $consultas -> appendChild($consulta);
+$xml -> formatOutput = true;
 $xml -> save('../xml/consultas.xml');
 
 ?>
