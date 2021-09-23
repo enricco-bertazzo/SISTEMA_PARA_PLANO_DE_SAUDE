@@ -23,5 +23,5 @@ if(isset($crm)){
     include 'cad_laboratorios.php';
 }
 
-header('location: ../pages/dashboard.html');
+header('location: ../pages/dashboard.php');
 ?>

@@ -1,4 +1,7 @@
 <?xml version="1.0"?>
+
+<!-- Não apagar modelo -->
+
 <laboratorios>
   <laboratorio>
     <nome> NOME </nome>
