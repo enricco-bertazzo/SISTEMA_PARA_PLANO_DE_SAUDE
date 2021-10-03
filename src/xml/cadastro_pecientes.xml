@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Não apagar modelo -->
+<pacientes>
+   <paciente>
+      <cpf> CPF </cpf>
+      <senha> SENHA </senha>
+      <nome> NOME </nome>
+      <endereco> ENDEREÇO </endereco>
+      <telefone> TELEFONE </telefone>
+      <email> EMAIL </email>
+      <genero> GENERO </genero>
+   </paciente>
+   <paciente>
+      <cpf>000.000.000-00</cpf>
+      <senha>000000000000000</senha>
+      <nome>NOME</nome>
+      <endereco>ENDEREÇO</endereco>
+      <telefone>(00) 00000-0000</telefone>
+      <email>EMAIL@GMAIL</email>
+      <genero>GENERO</genero>
+   </paciente>
+</pacientes>

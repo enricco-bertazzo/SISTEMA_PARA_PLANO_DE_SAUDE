@@ -7,11 +7,12 @@ $consultas = $xml -> getElementsByTagName('consultas') -> item(0);
 
 $consulta = $xml -> createElement('consulta');
 
+    $observacao = $xml -> createElement('observacao', 'VARIAVEL DA observacao');
     $data = $xml -> createElement('data', 'VARIAVEL DO data');
     $medico = $xml -> createElement('medico', 'VARIAVEL DO medico');
     $paciente = $xml -> createElement('paciente', 'VARIAVEL DO paciente');
     $receita = $xml -> createElement('receita', 'VARIAVEL DO receita');
-    $observacao = $xml -> createElement('observacao', 'VARIAVEL DA observacao');
+    
 
     $consulta -> appendChild($data);
     $consulta -> appendChild($medico);

@@ -18,13 +18,13 @@
 <body>
     <?php
 
-    include "../php/menu.php";
+    include "../pages/menu.php";
 
     ?>
 
 	<div class="card" id="formulario">
 		<article class="card-body">
-			<h4 class="card-title text-center mb-4 mt-1">Vinculação de Médicos</h4>
+			<h4 class="card-title text-center mb-4 mt-1">Edição de Médicos</h4>
 			<hr>
 			<p class="text-danger text-center" name="msg-erro"></p>
 			<form method="POST" action="../php/registrar.php">

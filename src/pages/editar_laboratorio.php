@@ -19,7 +19,7 @@
 
 	<?php
 
-	include "../php/menu.php";
+	include "../pages/menu.php";
 
 	?>
 
