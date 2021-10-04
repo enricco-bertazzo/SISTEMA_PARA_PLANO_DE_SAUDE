@@ -24,8 +24,7 @@
 						<div class="input-group-prepend">
 							<span class="input-group-text"><i class="far fa-user"></i></span>
 						</div>
-						<input name="login-usuario" class="form-control" placeholder="CPF/CNPJ/CRM" type="text"
-							required>
+						<input name="login-usuario" class="form-control" placeholder="CPF/CNPJ/CRM" type="text" required>
 					</div>
 				</div>
 				<div class="form-group">
@@ -38,7 +37,7 @@
 				</div>
 				<div class="form-group">
 					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Login</button>
-					<center><a ref="#" class="btn">Esqueceu sua senha?</a></center>	
+					<center><a ref="#" class="btn">Esqueceu sua senha?</a></center>
 			</form>
 		</article>
 	</div>
