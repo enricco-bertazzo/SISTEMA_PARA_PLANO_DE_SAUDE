@@ -54,7 +54,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+                            <span class="input-group-text"><i class="fas fa-scroll"></i></span>
                         </div>
                         <input name="exame" id="exame" class="form-control" placeholder="Exame" type="text" required>
                     </div>
@@ -62,7 +62,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-notes-medical"></i></span>
+                            <span class="input-group-text"><i class="fas fa-exclamation-circle"></i></span>
                         </div>
                         <textarea id="observacao" name="observacao" class="form-control" rows="5" cols="33" placeholder="Observação"></textarea>
                     </div>
