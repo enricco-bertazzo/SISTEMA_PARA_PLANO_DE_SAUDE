@@ -31,9 +31,19 @@
                         Laboratórios
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="vincular_laboratorio.php">vincular Laboratório</a></li>
+                        <li><a class="dropdown-item" href="vincular_laboratorio.php">Vincular Laboratório</a></li>
                         <li><a class="dropdown-item" href="editar_laboratorio.php">Editar Laboratório</a></li>
                         <li><a class="dropdown-item" href="#">Desvincular Laboratório</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Consulta
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="marcar_consulta.php">Marcar Consulta</a></li>
+                        <li><a class="dropdown-item" href="editar_consulta.php">Editar Consulta</a></li>
+                        <li><a class="dropdown-item" href="#">Cancelar Colsulta</a></li>
                     </ul>
                 </li>
             </ul>
