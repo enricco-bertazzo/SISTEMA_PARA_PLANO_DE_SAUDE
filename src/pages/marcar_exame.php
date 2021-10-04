@@ -64,7 +64,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-notes-medical"></i></span>
                         </div>
-                        <textarea id="observacao" name="observacao" class="form-control" rows="5" cols="33" placeholder="Observação"></textarea>
+                        <textarea id="resultado" name="resultado" class="form-control" rows="5" cols="33" placeholder="Observação"></textarea>
                     </div>
 
                     <button type="submit" class="btn btn-primary btn-block" style="width:100%">Salvar</button>

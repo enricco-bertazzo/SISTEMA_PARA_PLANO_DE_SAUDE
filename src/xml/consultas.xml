@@ -1,13 +1,18 @@
 <?xml version="1.0"?>
-
 <!-- Não apagar modelo -->
-
 <consultas>
   <consulta>
     <data> DATA </data>
     <medico> MEDICO </medico>
     <paciente> PACIENTE </paciente>
     <receita> RECEITA </receita>
-    <observacao> OBSERVAÇÃO </observacao>
+    <observacao> OBSERVA&#xC7;&#xC3;O </observacao>
+  </consulta>
+  <consulta>
+    <data>2021-06-15</data>
+    <medico />
+    <paciente>enricco</paciente>
+    <receita />
+    <observacao>checkup</observacao>
   </consulta>
 </consultas>

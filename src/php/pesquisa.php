@@ -3,6 +3,8 @@
 $cpf_query = $_POST['cpf_query'];
 $crm_query = $_POST['crm_query'];
 $cnpj_query = $_POST['cnpj_query'];
+$nome_exame = $_POST['nome_exame'];
+$nome_consulta = $_POST['nome_consulta'];
 
 $xml = simplexml_load_file('../xml/cadastro_pacientes.xml');
 
