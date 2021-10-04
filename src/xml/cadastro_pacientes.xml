@@ -11,12 +11,30 @@
       <genero> GENERO </genero>
    </paciente>
    <paciente>
-      <cpf>000.000.000-00</cpf>
-      <senha>000000000000000</senha>
-      <nome>NOME</nome>
-      <endereco>ENDEREÇO</endereco>
-      <telefone>(00) 00000-0000</telefone>
-      <email>EMAIL@GMAIL</email>
-      <genero>GENERO</genero>
+      <cpf>111.111.111-11</cpf>
+      <senha>1234</senha>
+      <nome>Enricco Rocha Bertazzo</nome>
+      <endereco>Avenida Portugal</endereco>
+      <telefone>(53) 99110-2311</telefone>
+      <email>jogosenricco@outlook.com</email>
+      <genero>neutro</genero>
    </paciente>
-</pacientes>
+   <paciente>
+      <cpf>444.444.444-44</cpf>
+      <senha>1234</senha>
+      <nome>Enricco Rocha Bertazzo</nome>
+      <endereco>Avenida Portugal</endereco>
+      <telefone>(53) 99110-2311</telefone>
+      <email>jogosenricco@outlook.com</email>
+      <genero>neutro</genero>
+   </paciente>
+   <paciente>
+      <cpf>034.864.960-69</cpf>
+      <senha>1234</senha>
+      <nome>Enricco Rocha Bertazzo</nome>
+      <endereco>Avenida Portugal</endereco>
+      <telefone>(53) 99110-2311</telefone>
+      <email>jogosenricco@outlook.com</email>
+      <genero>neutro</genero>
+   </paciente>
+<paciente><cpf>666.666.666-66</cpf><senha>1234</senha><nome>julia</nome><endereco>trevo</endereco><telefone>(77) 77777-7777</telefone><email>jogosenricco@outlook.com</email><genero>binario</genero></paciente></pacientes>
