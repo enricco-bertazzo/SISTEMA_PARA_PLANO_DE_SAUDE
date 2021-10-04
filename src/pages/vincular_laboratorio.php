@@ -16,16 +16,15 @@
 </head>
 
 <body>
-
 	<?php
 
-	include "../pages/menu.php";
+    include "../pages/menu.php";
 
-	?>
+    ?>
 
 	<div class="card" id="formulario">
 		<article class="card-body">
-			<h4 class="card-title text-center mb-4 mt-1">Edição de Laboratórios</h4>
+			<h4 class="card-title text-center mb-4 mt-1">Vinculação de Laboratórios</h4>
 			<hr>
 			<p class="text-danger text-center" name="msg-erro"></p>
 			<form method="POST" action="../php/registrar.php">
@@ -53,9 +52,7 @@
 						<input name="telefone" id="telefone" class="form-control" placeholder="Telefone" type="text" required>
 					</div>
 				</div>
-				<script type="text/javascript">
-					$("#telefone").mask("(00) 00000-0000");
-				</script>
+				<script type="text/javascript">$("#telefone").mask("(00) 00000-0000");</script>
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -80,9 +77,7 @@
 						<input name="cnpj" id="cnpj" class="form-control" placeholder="CNPJ" type="text" required>
 					</div>
 				</div>
-				<script type="text/javascript">
-					$("#cnpj").mask("00.000.000/0000-00");
-				</script>
+                <script type="text/javascript">$("#cnpj").mask("00.000.000/0000-00");</script>
 				<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-prepend">
@@ -92,7 +87,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Salvar</button>
+					<button type="submit" class="btn btn-primary btn-block" style="width:100%">Vincular</button>
 			</form>
 		</article>
 	</div>
