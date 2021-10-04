@@ -24,7 +24,7 @@ $resultado = $_POST['resultado'];
 $data = $_POST['data'];
 $laboratorio = $_POST['laboratorio'];
 $paciente = $_POST['paciente'];
-$exame = $_POST['exame'];
+$exame_cad = $_POST['exame_cad'];
 
 //dados especiais para consultas//
 $observacao = $_POST['observacao'];

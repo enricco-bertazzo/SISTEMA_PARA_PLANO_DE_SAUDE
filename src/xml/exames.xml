@@ -1,13 +1,18 @@
 <?xml version="1.0"?>
-
 <!-- Não apagar modelo -->
-
 <exames>
   <exame>
     <data> DATA </data>
-    <laboratorio> LABORATÓRIO </laboratorio>
+    <laboratorio> LABORAT&#xD3;RIO </laboratorio>
     <paciente> PACIENTE </paciente>
     <exame> EXAME </exame>
-    <observacao> OBSERVAÇÃO </observacao>
+    <observacao> OBSERVA&#xC7;&#xC3;O </observacao>
+  </exame>
+  <exame>
+    <data>2022-03-21</data>
+    <laboratorio>ciclano e compania</laboratorio>
+    <paciente>ciclano</paciente>
+    <exame>asaas</exame>
+    <resultado>asiudhsaidhsa</resultado>
   </exame>
 </exames>

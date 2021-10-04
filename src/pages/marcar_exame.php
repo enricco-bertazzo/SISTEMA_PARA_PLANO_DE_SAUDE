@@ -56,7 +56,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-scroll"></i></span>
                         </div>
-                        <input name="exame" id="exame" class="form-control" placeholder="Exame" type="text" required>
+                        <input name="exame_cad" id="exame_cad" class="form-control" placeholder="Exame" type="text" required>
                     </div>
                 </div>
                 <div class="form-group">

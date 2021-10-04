@@ -11,13 +11,13 @@ $exame = $xml -> createElement('exame');
     $resultado = $xml -> createElement('resultado', $resultado);
     $data = $xml -> createElement('data', $data);
     $laboratorio = $xml -> createElement('laboratorio', $laboratorio);
-    $exame = $xml -> createElement('exame', $exame);
+    $exame_cad = $xml -> createElement('exame', $exame_cad);
     
 
     $exame -> appendChild($data);
     $exame -> appendChild($laboratorio);
     $exame -> appendChild($paciente);
-    $exame -> appendChild($exame);
+    $exame -> appendChild($exame_cad);
     $exame -> appendChild($resultado);
 
 $exames -> appendChild($exame);
