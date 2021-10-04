@@ -17,13 +17,7 @@
 
 <body>
 	<?php
-<<<<<<< Updated upstream
-
-	include "../pages/menu.php";
-
-=======
 	include "menu.php";
->>>>>>> Stashed changes
 	?>
 
 	<div class="card" id="formulario">

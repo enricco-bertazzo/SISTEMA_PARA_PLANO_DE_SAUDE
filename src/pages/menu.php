@@ -38,12 +38,22 @@
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Consulta
+                        Consultas
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <li><a class="dropdown-item" href="marcar_consulta.php">Marcar Consulta</a></li>
                         <li><a class="dropdown-item" href="editar_consulta.php">Editar Consulta</a></li>
                         <li><a class="dropdown-item" href="#">Cancelar Colsulta</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Exames
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="marcar_exame.php">Marcar Exame</a></li>
+                        <li><a class="dropdown-item" href="editar_exame.php">Editar Exame</a></li>
+                        <li><a class="dropdown-item" href="#">Cancelar Exame</a></li>
                     </ul>
                 </li>
             </ul>

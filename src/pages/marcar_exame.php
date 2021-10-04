@@ -23,7 +23,7 @@
     ?>
     <div class="card" id="formulario">
         <article class="card-body">
-            <h4 class="card-title text-center mb-4 mt-1">Marcar Consulta</h4>
+            <h4 class="card-title text-center mb-4 mt-1">Marcar Exame</h4>
             <hr>
             <p class="text-danger text-center" name="msg-erro"></p>
             <form method="POST" action="../php/registrar.php">
@@ -40,7 +40,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-notes-medical"></i></span>
                         </div>
-                        <input name="medico" id="medico" class="form-control" placeholder="Médico" type="text" required>
+                        <input name="laboratorio" id="laboratorio" class="form-control" placeholder="Laboratório" type="text" required>
                     </div>
                 </div>
                 <div class="form-group">
@@ -56,7 +56,7 @@
                         <div class="input-group-prepend">
                             <span class="input-group-text"><i class="fas fa-envelope"></i></span>
                         </div>
-                        <input name="receita" id="receita" class="form-control" placeholder="Receita" type="text" required>
+                        <input name="exame" id="exame" class="form-control" placeholder="Exame" type="text" required>
                     </div>
                 </div>
                 <div class="form-group">

@@ -30,7 +30,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                            <span class="input-group-text"><i class="fas fa-notes-medical"></i></span>
                         </div>
                         <input name="data" id="data" class="form-control" placeholder="Data" type="date" required>
                     </div>
@@ -46,7 +46,7 @@
                 <div class="form-group">
                     <div class="input-group">
                         <div class="input-group-prepend">
-                            <span class="input-group-text"><i class="fas fa-mobile-alt"></i></span>
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
                         </div>
                         <input name="paciente" id="paciente" class="form-control" placeholder="Paciente" type="text" required>
                     </div>
