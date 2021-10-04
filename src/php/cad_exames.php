@@ -7,11 +7,12 @@ $exames = $xml -> getElementsByTagName('exames') -> item(0);
 
 $exame = $xml -> createElement('exame');
 
+    $resultado = $xml -> createElement('resultado', 'VARIAVEL DA resultado');
     $data = $xml -> createElement('data', 'VARIAVEL DO data');
     $laboratorio = $xml -> createElement('laboratorio', 'VARIAVEL DO laboratorio');
     $paciente = $xml -> createElement('paciente', 'VARIAVEL DO paciente');
     $exame = $xml -> createElement('exame', 'VARIAVEL DO exame');
-    $resultado = $xml -> createElement('resultado', 'VARIAVEL DA resultado');
+    
 
     $exame -> appendChild($data);
     $exame -> appendChild($laboratorio);
@@ -20,6 +21,7 @@ $exame = $xml -> createElement('exame');
     $exame -> appendChild($resultado);
 
 $exames -> appendChild($exame);
+$xml -> formatOutput = true;
 $xml -> save('../xml/exames.xml');
 
 ?>

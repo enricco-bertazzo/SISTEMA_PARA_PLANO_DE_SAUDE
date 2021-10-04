@@ -18,7 +18,11 @@
 <body>
 	<?php
 
+<<<<<<< HEAD
 	include "../php/menu.php";
+=======
+	include "../pages/menu.php";
+>>>>>>> main
 
 	?>
 
