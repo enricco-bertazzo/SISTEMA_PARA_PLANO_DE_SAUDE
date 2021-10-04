@@ -1,12 +1,12 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!-- Não apagar modelo -->
 <exames>
   <exame>
     <data> DATA </data>
-    <laboratorio> LABORAT&#xD3;RIO </laboratorio>
+    <laboratorio> LABORATÓRIO </laboratorio>
     <paciente> PACIENTE </paciente>
     <exame> EXAME </exame>
-    <observacao> OBSERVA&#xC7;&#xC3;O </observacao>
+    <observacao> OBSERVAÇÃO </observacao>
   </exame>
   <exame>
     <data>2022-03-21</data>
