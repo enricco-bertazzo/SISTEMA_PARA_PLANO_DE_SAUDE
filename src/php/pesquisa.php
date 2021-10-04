@@ -47,6 +47,26 @@ if(isset($cpf_query)){
             exit;
         }
     }
+} elseif(isset($nome_exame)){
+    foreach($xml -> exame as $exame){
+        if ($exame -> paciente == $nome_exame){
+            echo $exame -> paciente;
+            echo $exame -> data;
+            echo $exame -> laboratorio;
+            echo $exame -> exame;
+            echo $exame -> resultado;
+        }
+    }
+} elseif(isset($nome_consulta)){
+    foreach($xml -> consulta as $consulta){
+        if ($consulta -> paciente == $nome_consulta){
+            echo $exame -> paciente;
+            echo $exame -> observacao;
+            echo $exame -> data;
+            echo $exame -> medico;
+            echo $exame -> receita;
+        }
+    }
 }
 
 ?>
